@@ -1,0 +1,4 @@
+当使用wsl2启动docker容器报错说是端口占用, 但其实并没有端口占用.
+那么此时我们执行下面两行代码
+net stop winnat
+net start winnat
